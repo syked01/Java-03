@@ -43,6 +43,27 @@ public class ex02_Excellent_Or_Not {
 
 ===========================================
 
+03. Even or odd
+
+import java.util.Scanner;
+
+public class ex03_Even_Or_Odd {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        int num = Integer.parseInt(console.nextLine());
+        if (num % 2 == 0){
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
+    }
+}
+
+===========================================
+
+===========================================
+
 04.Greater number
 
 import java.util.Scanner;
@@ -60,3 +81,5 @@ public class ex04_Greater_Number {
         }
     }
 }
+
+===========================================
